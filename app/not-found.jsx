@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main id="main" className="not-found wrap"><p className="eyebrow">404 / PAGE NOT FOUND</p><h1>Let’s get you<br/>back on track.</h1><p>This page could not be found. Explore our services or return to the homepage.</p><div className="actions"><Link className="button" href="/">Go to homepage</Link><Link className="button outline" href="/services/">Browse services</Link></div></main>}

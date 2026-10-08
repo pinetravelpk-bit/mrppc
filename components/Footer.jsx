@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import {services} from '@/lib/services';
+export default function Footer(){return <footer><div className="wrap footer-main"><Link href="/" className="logo">MrPPC<span>.pk</span><i>✳</i></Link><p>PPC strategy. Purposeful growth.<br/>Islamabad, Pakistan.</p><div><Link href="/services/">Services</Link><Link href="/about/">About</Link><Link href="/contact/">Campaign brief</Link></div></div><div className="wrap footer-service-links">{services.map(s=><Link key={s.slug} href={`/services/${s.slug}/`}>{s.name}</Link>)}</div><div className="wrap footer-bottom"><span>© {new Date().getFullYear()} MrPPC.pk. All rights reserved.</span><span>Led by Syed Mudassir Shah</span></div></footer>}
