@@ -1,5 +1,6 @@
 ---
 title: "PPC Expert in Islamabad: How to Choose the Right One in 2026"
+metaTitle: "PPC Expert in Islamabad: How to Choose the Right One"
 description: Looking for a PPC expert in Islamabad? Learn what a good one does, what it costs, the questions to ask and why Syed Mudassir Shah, with 15+ years of experience, is a trusted choice.
 excerpt: Islamabad has no shortage of people who say they run ads. This guide shows you how to spot a real PPC expert, what you should pay for, and the questions that separate experience from sales talk.
 date: 2026-10-10

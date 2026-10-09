@@ -1,5 +1,6 @@
 ---
 title: "TikTok Ads Expert in Islamabad: Creative, Creators and Campaigns That Sell"
+metaTitle: "TikTok Ads Expert in Islamabad: Creative That Sells"
 description: What a TikTok Ads expert in Islamabad does differently, from local video ideas and creator Spark Ads to testing hooks and tracking leads. By Syed Mudassir Shah, 15+ years in paid advertising.
 excerpt: TikTok rewards businesses that act like creators, not advertisers. Here is how a local TikTok Ads expert plans video ideas, works with Islamabad creators and tests hooks until the numbers make sense.
 date: 2026-10-10

@@ -1,8 +1,10 @@
 ---
 title: How Much Does Google Ads Cost in Pakistan? A Practical Guide
+metaTitle: "How Much Does Google Ads Cost in Pakistan?"
 description: What Google Ads really costs in Pakistan, what drives cost per click, how to work out a starting budget and how to lower your costs. Plain guide from a PPC expert.
 excerpt: There is no fixed price for Google Ads. Here is how the costs actually work, how to work out a sensible starting budget and the five things that bring your cost per lead down.
 date: 2026-10-09
+keyword: Google Ads Cost in Pakistan
 category: Google Ads
 service: google-ads
 ---

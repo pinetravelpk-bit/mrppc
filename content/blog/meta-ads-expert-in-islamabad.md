@@ -1,5 +1,6 @@
 ---
 title: "Meta Ads Expert in Islamabad: Facebook and Instagram Ads That Turn Into WhatsApp Leads"
+metaTitle: "Meta Ads Expert in Islamabad: Facebook & Instagram Leads"
 description: How a Meta Ads expert in Islamabad runs Facebook and Instagram campaigns that bring real WhatsApp conversations, bookings and sales. By Syed Mudassir Shah, 15+ years in paid advertising.
 excerpt: In Islamabad, most Facebook and Instagram sales happen in a chat, not a checkout. This guide shows how a local Meta Ads expert plans targeting, creative and WhatsApp follow up so ads become customers.
 date: 2026-10-10

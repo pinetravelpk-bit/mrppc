@@ -1,5 +1,6 @@
 ---
 title: "Google Ads Expert in Islamabad: Local Search Strategy That Brings Calls"
+metaTitle: "Google Ads Expert in Islamabad: Local Search Guide"
 description: How a Google Ads expert in Islamabad wins local searches by sector, sets location targeting correctly and tracks calls and WhatsApp leads. By Syed Mudassir Shah, 15+ years of experience.
 excerpt: People in Islamabad search by sector, on their phones, often in a mix of English and Roman Urdu. Here is how a local Google Ads expert turns those searches into calls, and what to check before you hire one.
 date: 2026-10-10

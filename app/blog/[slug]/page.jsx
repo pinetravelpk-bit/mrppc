@@ -11,7 +11,7 @@ import {JsonLd,breadcrumbSchema,faqSchema,orgId,personId} from '@/lib/schema';
 
 export function generateStaticParams(){return getPosts().map(p=>({slug:p.slug}))}
 export async function generateMetadata({params}){const {slug}=await params;const p=getPosts().find(p=>p.slug===slug);if(!p)return {};
-  return {title:p.title,description:p.description,alternates:{canonical:`/blog/${p.slug}/`},openGraph:{type:'article',title:p.title,description:p.description,url:`/blog/${p.slug}/`,publishedTime:p.date,modifiedTime:p.updated,authors:[`${siteUrl}/about/`],section:p.category}}}
+  const t=p.metaTitle||p.title;return {title:t,description:p.description,alternates:{canonical:`/blog/${p.slug}/`},openGraph:{type:'article',title:t,description:p.description,url:`/blog/${p.slug}/`,publishedTime:p.date,modifiedTime:p.updated,authors:[`${siteUrl}/about/`],section:p.category}}}
 
 export default async function Post({params}){const {slug}=await params;const p=getPost(slug);if(!p)notFound();
   const svc=services.find(s=>s.slug===p.service);const plat=platforms[p.service];

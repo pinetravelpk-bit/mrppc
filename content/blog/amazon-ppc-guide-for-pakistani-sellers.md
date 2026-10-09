@@ -1,8 +1,10 @@
 ---
 title: "Amazon PPC for Pakistani Sellers: ACoS, TACoS and a Simple Campaign Structure"
+metaTitle: "Amazon PPC for Pakistani Sellers: ACoS & TACoS Guide"
 description: A plain guide to Amazon PPC for sellers in Pakistan. Learn break even ACoS, TACoS, Sponsored Products structure and the weekly routine that keeps ad spend profitable.
 excerpt: Amazon ads can launch a product or quietly eat your margin. This guide covers the numbers that matter, a campaign structure that stays organised and the weekly checks that keep it profitable.
 date: 2026-10-07
+keyword: Amazon PPC for Pakistani Sellers
 category: Amazon PPC
 service: amazon-ads
 ---

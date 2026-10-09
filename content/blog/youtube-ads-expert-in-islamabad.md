@@ -1,5 +1,6 @@
 ---
 title: "YouTube Ads Expert in Islamabad: Video Campaigns That Build Trust and Bring Leads"
+metaTitle: "YouTube Ads Expert in Islamabad: Video That Brings Leads"
 description: How a YouTube Ads expert in Islamabad plans video campaigns for local brands, real estate, education and services, from Urdu creative to Shorts, targeting and measurement. By Syed Mudassir Shah, 15+ years.
 excerpt: YouTube is where people in the twin cities watch reviews, tours and explainers before they buy. This guide shows how a local YouTube Ads expert turns one video idea into campaigns that build trust and bring enquiries.
 date: 2026-10-10

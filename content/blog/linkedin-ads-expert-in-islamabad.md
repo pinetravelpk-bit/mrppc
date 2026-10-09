@@ -1,5 +1,6 @@
 ---
 title: "LinkedIn Ads Expert in Islamabad: Winning B2B Clients Abroad and at Home"
+metaTitle: "LinkedIn Ads Expert in Islamabad: B2B Lead Generation"
 description: How a LinkedIn Ads expert in Islamabad helps software houses, IT firms and B2B services reach decision makers in the US, UK, Gulf and Pakistan. By Syed Mudassir Shah, 15+ years in paid advertising.
 excerpt: For Islamabad's software houses and B2B firms, LinkedIn is the most direct line to decision makers abroad. This guide covers targeting, offers that build trust in a Pakistan based vendor, and turning leads into meetings.
 date: 2026-10-10
