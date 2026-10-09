@@ -1,4 +1,5 @@
 // Animated SVG infographics. Animations start when the parent .reveal gets .visible (see Reveal.jsx).
+import {Scene} from './Scenes';
 // Every chart is labelled as illustrative: no client results are implied.
 
 function Figure({title,caption,className='',children}){return <figure className={`seo-figure reveal ${className}`}>{title&&<p className="seo-figure-title">{title}</p>}{children}{caption&&<figcaption>{caption}</figcaption>}</figure>}
@@ -26,4 +27,5 @@ export function Cycle({title,caption,center,items}){
 
 export function Meters({title,caption,items}){return <Figure title={title} caption={caption} className="meter-figure"><ul className="meters">{items.map(([label,value,note],i)=><li key={label} style={{'--v':`${value}%`,'--d':`${i*.14}s`}}><div><strong>{label}</strong>{note&&<span>{note}</span>}</div><i aria-hidden="true"><em/></i></li>)}</ul></Figure>}
 
-export function Graphic({g}){if(!g)return null;const P={growth:GrowthChart,funnel:Funnel,cycle:Cycle,meters:Meters}[g.type];return P?<P {...g}/>:null}
+function SceneFigure({title,caption,alt,...rest}){return <Figure title={title} caption={caption} className={`scene-figure scene-${rest.name}`}>{alt&&<p className="sr-only">{alt}</p>}<Scene {...rest}/></Figure>}
+export function Graphic({g}){if(!g)return null;if(g.type==='scene'){const {type,...rest}=g;return <SceneFigure {...rest}/>}const P={growth:GrowthChart,funnel:Funnel,cycle:Cycle,meters:Meters}[g.type];return P?<P {...g}/>:null}

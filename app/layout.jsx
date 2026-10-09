@@ -1,5 +1,6 @@
 import './globals.css';
 import './seo.css';
+import './scenes.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
