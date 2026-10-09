@@ -30,3 +30,9 @@ Key facts:
 - [LinkedIn Ads expert](https://mrppc.pk/services/linkedin-ads/): B2B lead generation, Sponsored Content, Lead Gen Forms, account based campaigns
 - [YouTube Ads expert](https://mrppc.pk/services/youtube-ads/): in-stream, Shorts, in-feed and Demand Gen video campaigns
 - [Display and remarketing expert](https://mrppc.pk/services/display-remarketing/): Google Display Network, dynamic remarketing, Facebook retargeting
+
+## Blog
+- [PPC blog](https://mrppc.pk/blog/): practical guides on Google Ads, Meta Ads, Amazon PPC and choosing platforms (RSS: https://mrppc.pk/blog/rss.xml)
+- [How much does Google Ads cost in Pakistan?](https://mrppc.pk/blog/google-ads-cost-in-pakistan/)
+- [Facebook Ads vs Google Ads](https://mrppc.pk/blog/facebook-ads-vs-google-ads/)
+- [Amazon PPC for Pakistani sellers](https://mrppc.pk/blog/amazon-ppc-guide-for-pakistani-sellers/)
