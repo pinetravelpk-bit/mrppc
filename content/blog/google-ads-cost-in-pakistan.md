@@ -5,7 +5,6 @@ excerpt: There is no fixed price for Google Ads. Here is how the costs actually 
 date: 2026-10-09
 category: Google Ads
 service: google-ads
-featured: true
 ---
 
 "How much will Google Ads cost me?" is the first question almost every business owner asks me. It is a fair question, and the honest answer is that it depends. That sounds like a dodge, so in this guide I will show you exactly what it depends on, how to estimate a realistic budget for your own business, and what you can do to pay less for every lead or sale.

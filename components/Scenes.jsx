@@ -1,3 +1,4 @@
+import {LOCAL_SCENES} from './LocalScenes';
 // Platform-specific animated scenes used inside SEO content figures (styles in app/scenes.css).
 // Animations run once the parent figure gets .visible. Every number is illustrative.
 
@@ -134,5 +135,5 @@ function Layers(){const l=[['Cart abandoners','1 to 14 days','Reminder plus deli
   {l.map(([n,w,m,wd],i)=><div key={n} className={`dl-tier${i===3?' ex':''}`} style={{'--w':`${wd}%`,'--d':`${i*.25}s`}}><b>{n}</b><span>{w}</span><small>{m}</small></div>)}
 </div>}
 
-const SCENES={serp:Serp,quality:Quality,feed:Feed,lookalike:Lookalike,hook:Hook,spark:Spark,shelf:Shelf,acos:Acos,adrate:AdRate,listing:ListingCheck,shop:ShopGrid,seasons:Seasons,desktop:Desktop,import:ImportFlow,targeting:Targeting,pipeline:Pipeline,skip:Skip,formats:Formats,followup:FollowUp,layers:Layers};
+const SCENES={serp:Serp,quality:Quality,feed:Feed,lookalike:Lookalike,hook:Hook,spark:Spark,shelf:Shelf,acos:Acos,adrate:AdRate,listing:ListingCheck,shop:ShopGrid,seasons:Seasons,desktop:Desktop,import:ImportFlow,targeting:Targeting,pipeline:Pipeline,skip:Skip,formats:Formats,followup:FollowUp,layers:Layers,...LOCAL_SCENES};
 export function Scene({name,...rest}){const S=SCENES[name];return S?<div aria-hidden="true"><S {...rest}/></div>:null}
