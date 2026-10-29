@@ -1,0 +1,4 @@
+import {business,telHref} from '@/lib/site';
+export const metadata={title:'You are offline',robots:{index:false,follow:false}};
+// Shown by the service worker (public/sw.js) when a page is requested without a connection and is not cached yet.
+export default function Offline(){return <main id="main" className="offline-page"><div className="wrap"><span className="offline-icon" aria-hidden="true">✳</span><p className="eyebrow">NO CONNECTION</p><h1>You are offline.</h1><p className="inner-intro">This page is not saved on your phone yet. Pages you have already opened still work. You can also call or WhatsApp Syed directly, which works on mobile data or a normal call.</p><div className="contact-direct"><a className="button" href={telHref}>Call {business.phone}</a><a className="button outline" href={business.whatsapp} rel="noopener">WhatsApp</a></div><a className="text-link" href="/">Try the home page again</a></div></main>}

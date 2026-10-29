@@ -3,10 +3,13 @@ import './seo.css';
 import './scenes.css';
 import './blog.css';
 import './local-scenes.css';
+import './app.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
+import AppShell from '@/components/AppShell';
 import {siteUrl} from '@/lib/services';
 import {JsonLd,businessSchema} from '@/lib/schema';
-export const metadata={metadataBase:new URL(siteUrl),title:{default:'MrPPC.pk | PPC Expert in Islamabad',template:'%s | MrPPC.pk'},description:'PPC expert Syed Mudassir Shah manages Google Ads, Meta, TikTok, Amazon, eBay, Etsy, Microsoft, LinkedIn and YouTube ads. Based in Scheme 3, Rawalpindi. Call 0343 5853835.',icons:{icon:'/favicon.svg'},verification:{google:'-RTu5kpbzJvx8lTBCKFVQkWkC8-Gw1DuLxMTBx3HlFU'},openGraph:{siteName:'MrPPC.pk',type:'website',locale:'en_PK'},twitter:{card:'summary'}};
-export default function RootLayout({children}){return <html lang="en-PK"><body><JsonLd data={businessSchema()}/><a className="skip" href="#main">Skip to content</a><Header/>{children}<Footer/><Reveal/></body></html>}
+export const metadata={metadataBase:new URL(siteUrl),title:{default:'MrPPC.pk | PPC Expert in Islamabad',template:'%s | MrPPC.pk'},description:'PPC expert Syed Mudassir Shah manages Google Ads, Meta, TikTok, Amazon, eBay, Etsy, Microsoft, LinkedIn and YouTube ads. Based in Scheme 3, Rawalpindi. Call 0343 5853835.',icons:{icon:[{url:'/favicon.svg',type:'image/svg+xml'},{url:'/icons/icon-192.png',sizes:'192x192',type:'image/png'}],apple:[{url:'/icons/apple-touch-icon.png',sizes:'180x180'}]},appleWebApp:{capable:true,title:'MrPPC',statusBarStyle:'black-translucent'},applicationName:'MrPPC',verification:{google:'-RTu5kpbzJvx8lTBCKFVQkWkC8-Gw1DuLxMTBx3HlFU'},openGraph:{siteName:'MrPPC.pk',type:'website',locale:'en_PK'},twitter:{card:'summary'}};
+export const viewport={width:"device-width",initialScale:1,viewportFit:"cover",themeColor:"#061321"};
+export default function RootLayout({children}){return <html lang="en-PK"><body><JsonLd data={businessSchema()}/><a className="skip" href="#main">Skip to content</a><Header/>{children}<Footer/><AppShell/><Reveal/></body></html>}
